@@ -3,18 +3,19 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLanguage } from '@/lib/LanguageContext';
+import { getImagePath } from '@/config/site';
 
 export default function Features() {
   const { t } = useLanguage();
 
   // 图片映射：为每个特性卡片分配对应的图片
   const imageMap: Record<number, string> = {
-    0: '/images/laptop-financial-chart.jpg',
-    1: '/images/receipt-handling.jpg',
-    2: '/images/document-audit.jpg',
-    3: '/images/tax-compliance.jpg',
-    4: '/images/documents-laptop.jpg',
-    5: '/images/retail-case-study.jpg',
+    0: getImagePath('laptop-financial-chart.jpg'),
+    1: getImagePath('receipt-handling.jpg'),
+    2: getImagePath('document-audit.jpg'),
+    3: getImagePath('tax-compliance.jpg'),
+    4: getImagePath('documents-laptop.jpg'),
+    5: getImagePath('retail-case-study.jpg'),
   };
 
   return (

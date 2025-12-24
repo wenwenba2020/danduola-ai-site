@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLanguage } from '@/lib/LanguageContext';
+import { getImagePath } from '@/config/site';
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -71,7 +72,7 @@ export default function Hero() {
               {/* HERO-01: Main visual - Professional analyzing data */}
               <div className="relative w-full max-w-md aspect-[4/5] bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/images/hero-dashboard-analysis.jpg"
+                  src={getImagePath('hero-dashboard-analysis.jpg')}
                   alt="Professional analyzing financial data and AI dashboard"
                   fill
                   className="object-cover"

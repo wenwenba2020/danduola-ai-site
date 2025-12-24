@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/lib/LanguageContext';
+import { getImagePath } from '@/config/site';
 
 export default function Stats() {
   const { t } = useLanguage();
@@ -24,7 +25,7 @@ export default function Stats() {
       title: t.stats.caseStudy.title,
       description: t.stats.caseStudy.description,
       cta: t.stats.caseStudy.cta,
-      image: '/images/retail-case-study.jpg',
+      image: getImagePath('retail-case-study.jpg'),
       metrics: t.stats.caseStudy.metrics,
     },
     {
@@ -32,7 +33,7 @@ export default function Stats() {
       title: 'Tech Startup Reduces Processing Time by 87%',
       description: 'A fast-growing SaaS company automated their expense approval workflow with intelligent agents, reducing processing time from days to hours while improving accuracy.',
       cta: 'Read Full Case Study',
-      image: '/images/hero-dashboard-analysis.jpg',
+      image: getImagePath('hero-dashboard-analysis.jpg'),
       metrics: [
         { value: '87%', label: 'Time reduction' },
         { value: '99%', label: 'Accuracy rate' },
@@ -45,7 +46,7 @@ export default function Stats() {
       title: 'Financial Services Firm Achieves 100% Compliance',
       description: 'A leading financial institution deployed Danduola AI to ensure regulatory compliance across thousands of transactions, achieving perfect audit scores.',
       cta: 'Read Full Case Study',
-      image: '/images/tax-compliance.jpg',
+      image: getImagePath('tax-compliance.jpg'),
       metrics: [
         { value: '100%', label: 'Compliance rate' },
         { value: '5000+', label: 'Daily transactions' },
