@@ -1,8 +1,12 @@
 # Danduola (单哆啦) - Next-Gen Smart Financing Platform
 
+[![Deploy to GitHub Pages](https://github.com/wenwenba2020/danduola-ai-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/wenwenba2020/danduola-ai-site/actions/workflows/deploy.yml)
+
 基于 AppZen 设计风格构建的 Agentic AI 智能财务平台官网落地页。
 
-🌐 **在线访问**: https://danduola-ai-site-gfjf6g3lfq.edgeone.run
+🌐 **在线访问**: 
+- **GitHub Pages**: https://wenwenba2020.github.io/danduola-ai-site/
+- EdgeOne Pages: https://danduola-ai-site-gfjf6g3lfq.edgeone.run
 
 ## 项目概述
 
