@@ -8,6 +8,8 @@
 - **GitHub Pages**: https://wenwenba2020.github.io/danduola-ai-site/
 - EdgeOne Pages: https://danduola-ai-site-gfjf6g3lfq.edgeone.run
 
+> **💡 缓存说明**: GitHub Pages 使用 CDN 缓存，首次部署或更新后可能需要 15-30 分钟全球生效。如遇到旧版本，请硬刷新（`Ctrl+Shift+R`）或清除浏览器缓存。
+
 ## 项目概述
 
 这是一个面向海外企业客户的专业级财务自动化平台落地页，采用现代 B2B SaaS 设计风格。项目使用 Next.js 16、TypeScript 和 Tailwind CSS 构建，展示 Danduola 基于 Agentic AI 的六大核心财务智能化能力。
